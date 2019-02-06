@@ -9,3 +9,5 @@
 - link:
     ~/.zshrc: zsh/zshrc.zsh
     ~/.zsh_plugins.txt: zsh/plugins.txt
+    ~/.vim: vim/vim
+    ~/.vimrc: vim/vimrc.vim
