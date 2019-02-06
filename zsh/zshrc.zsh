@@ -8,6 +8,7 @@ export LC_ALL=en_US.UTF-8
 
 
 # PATH settings
+export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/Users/pavshn/.local/bin:$PATH"
 
@@ -69,7 +70,7 @@ alias vi='nvim'
 # Functions
 # Update antibody plugins
 uz(){
-  antibody bundle <plugins.txt >~/.zsh_plugins.sh
+  antibody bundle <~.zsh_plugins.txt >~/.zsh_plugins.sh
   antibody update
 }
 

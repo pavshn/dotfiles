@@ -8,3 +8,4 @@
 
 - link:
     ~/.zshrc: zsh/zshrc.zsh
+    ~/.zsh_plugins.txt: zsh/plugins.txt
