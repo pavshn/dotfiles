@@ -1,0 +1,6 @@
+mafredri/zsh-async
+zdharma/fast-syntax-highlighting
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-completions
+sindresorhus/pure
+Tarrasch/zsh-bd
