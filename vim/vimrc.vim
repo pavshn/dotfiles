@@ -23,6 +23,8 @@ Plugin 'ervandew/supertab'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
 
+Plugin 'elixir-editors/vim-elixir'
+
 "Plugin 'wincent/command-t'
 
 " All of your Plugins must be added before the following line
@@ -118,3 +120,6 @@ nmap <Leader>F :Files<CR>
 nmap <Leader>f :GFiles<CR>
 
 nnoremap <C-p> :Files<Cr>
+
+" Fix backspace
+set backspace=indent,eol,start

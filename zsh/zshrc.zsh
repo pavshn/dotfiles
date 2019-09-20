@@ -65,7 +65,8 @@ alias gitr='git clone --recursive'
 alias swift='PATH="/usr/bin:$PATH" swift'
 alias lldb='PATH="/usr/bin:$PATH" lldb'
 alias vi='nvim'
-
+alias e='/./Applications/Emacs.app/Contents/MacOS/Emacs -nw'
+alias emacs='open -a /Applications/Emacs.app'
 
 # Functions
 # Update antibody plugins
@@ -90,6 +91,12 @@ fh() {
     )
 }
 
+# Full upgrade and cleanup
+bfuc() {
+  brew update && brew upgrade
+  brew cask upgrade
+  brew cleanup
+}
 
 # iTerm Shell Integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && \
