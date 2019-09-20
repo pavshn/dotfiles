@@ -7,3 +7,6 @@
 [submodule "vim/vim/bundle/gruvbox"]
 	path = vim/vim/bundle/gruvbox
 	url = https://github.com/morhetz/gruvbox.git
+[submodule "vim/vim/bundle/vim-elixir"]
+	path = vim/vim/bundle/vim-elixir
+	url = git@github.com:elixir-editors/vim-elixir.git
